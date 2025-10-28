@@ -9,7 +9,7 @@ export default function App() {
   return (
     <Layout className="flex w-dvw flex-col gap-8 px-4">
       <div className="flex items-center justify-center gap-2">
-        <a href={feedUrl} target="_blank">
+        <a href={feedUrl} target="_blank" aria-label="RSS Feed">
           <IconRss size={20} />
         </a>
         <div className="flex items-center gap-2 overflow-x-auto rounded bg-gray-200 px-3 py-1 font-mono text-gray-600">
