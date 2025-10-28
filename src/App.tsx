@@ -5,7 +5,7 @@ import Layout from "./components/Layout";
 export default function App() {
   return (
     <Layout>
-      <div className="flex max-w-3xl flex-col gap-8">
+      <div className="flex max-w-3xl flex-col gap-8 px-4">
         {ChangelogJson.map((entry) => (
           <ChangelogItem
             key={entry.version}
