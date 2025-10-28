@@ -30,8 +30,9 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: commit and push changes
         run: |
-          git add .
+          git add ./data
           if ! git diff --staged --quiet; then
+            git add ./
             git commit -m "chore: Update"
             git push origin main
           else
