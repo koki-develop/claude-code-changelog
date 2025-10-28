@@ -28,7 +28,7 @@ export default function ChangelogItem({
         </h2>
         {publishedAt && (
           <time
-            className="text-gray-400"
+            className="text-gray-500"
             dateTime={new Date(publishedAt).toISOString()}
           >
             {new Date(publishedAt).toLocaleDateString()}
