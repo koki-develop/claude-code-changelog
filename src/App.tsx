@@ -4,16 +4,16 @@ import ChangelogItem from "./components/ChangelogItem";
 import CopyButton from "./components/CopyButton";
 import Layout from "./components/Layout";
 
+const feedUrl = "https://claude-code-changelog.vercel.app/feed.xml";
+
 export default function App() {
   return (
     <Layout className="flex flex-col gap-8">
       <div className="flex max-w-dvw items-center justify-center gap-2">
         <IconRss size={20} />
         <div className="flex items-center gap-2 overflow-x-auto rounded bg-gray-200 px-3 py-1 font-mono text-gray-600">
-          <span className="whitespace-nowrap">
-            https://claude-code-changelog.vercel.app/feed.xml
-          </span>
-          <CopyButton value="https://claude-code-changelog.vercel.app/feed.xml">
+          <span className="whitespace-nowrap">{feedUrl}</span>
+          <CopyButton value={feedUrl}>
             {({ copied }) =>
               copied ? (
                 <IconCheck className="text-green-600" size={16} />
