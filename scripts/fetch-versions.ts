@@ -12,23 +12,8 @@ if (!response.ok) {
 }
 const data = await response.json();
 
-const versions: Record<string, string> = (() => {
-  const { time } = data;
-  delete time["created"];
-  delete time["modified"];
-
-  // Merge with existing versions to preserve any previously fetched data
-  if (fs.existsSync(versionsJsonPath)) {
-    const existingVersions = JSON.parse(
-      fs.readFileSync(versionsJsonPath, "utf-8"),
-    );
-    return {
-      ...existingVersions,
-      ...time,
-    };
-  }
-
-  return time;
-})();
+const { time: versions } = data;
+delete versions["created"];
+delete versions["modified"];
 
 fs.writeFileSync(versionsJsonPath, JSON.stringify(versions, null, 2) + "\n");
