@@ -9,7 +9,8 @@
     "build": "tsc -b && vite build",
     "fmt": "prettier --write .",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fetch:versions": "vite-node ./scripts/fetch-versions.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.1.16",
