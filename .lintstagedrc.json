@@ -1,0 +1,3 @@
+{
+  "*": "bunx prettier --write --ignore-unknown"
+}
