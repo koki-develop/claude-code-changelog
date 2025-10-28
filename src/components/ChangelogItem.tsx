@@ -36,7 +36,7 @@ export default function ChangelogItem({
         )}
       </div>
 
-      <div>
+      <div className="wrap-break-word">
         <Markdown
           components={{
             ul: ({ children }) => (
