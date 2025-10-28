@@ -15,6 +15,7 @@
     "fetch:changelog": "vite-node ./scripts/fetch-changelog.ts"
   },
   "dependencies": {
+    "@tabler/icons-react": "3.35.0",
     "@tailwindcss/vite": "4.1.16",
     "feed": "5.1.0",
     "react": "19.2.0",
