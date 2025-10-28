@@ -23,7 +23,7 @@ export default function ChangelogItem({
             rel="noreferrer"
           >
             v{version}
-            <IconExternalLink size={18} />
+            <IconExternalLink className="text-gray-400" size={18} />
           </a>
         </h2>
         {publishedAt && (
