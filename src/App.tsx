@@ -1,13 +1,13 @@
 import ChangelogJson from "../data/changelog.json";
-import ChangelogCard from "./components/ChangelogCard";
+import ChangelogItem from "./components/ChangelogItem";
 import Layout from "./components/Layout";
 
 export default function App() {
   return (
     <Layout>
-      <div className="space-y-6">
+      <div className="flex max-w-3xl flex-col gap-8">
         {ChangelogJson.map((entry) => (
-          <ChangelogCard
+          <ChangelogItem
             key={entry.version}
             version={entry.version}
             publishedAt={entry.publishedAt}
