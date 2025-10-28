@@ -7,10 +7,12 @@ import Layout from "./components/Layout";
 export default function App() {
   return (
     <Layout className="flex flex-col gap-8">
-      <div className="flex items-center justify-center gap-2">
+      <div className="flex max-w-dvw items-center justify-center gap-2">
         <IconRss size={20} />
-        <div className="flex items-center gap-2 rounded bg-gray-200 px-3 py-1 font-mono text-gray-600">
-          <span>https://claude-code-changelog.vercel.app/feed.xml</span>
+        <div className="flex items-center gap-2 overflow-x-auto rounded bg-gray-200 px-3 py-1 font-mono text-gray-600">
+          <span className="whitespace-nowrap">
+            https://claude-code-changelog.vercel.app/feed.xml
+          </span>
           <CopyButton value="https://claude-code-changelog.vercel.app/feed.xml">
             {({ copied }) =>
               copied ? (
