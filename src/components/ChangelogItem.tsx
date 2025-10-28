@@ -43,7 +43,7 @@ export default function ChangelogItem({
               <ul className="list-disc pl-6">{children}</ul>
             ),
             code: ({ children }) => (
-              <code className="rounded bg-gray-100 px-1 py-0.5 font-mono">
+              <code className="rounded bg-gray-100 px-1 py-0.5 font-mono text-sm">
                 {children}
               </code>
             ),
