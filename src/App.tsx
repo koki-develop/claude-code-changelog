@@ -1,10 +1,28 @@
+import { IconCheck, IconCopy, IconRss } from "@tabler/icons-react";
 import ChangelogJson from "../data/changelog.json";
 import ChangelogItem from "./components/ChangelogItem";
+import CopyButton from "./components/CopyButton";
 import Layout from "./components/Layout";
 
 export default function App() {
   return (
-    <Layout>
+    <Layout className="flex flex-col gap-8">
+      <div className="flex items-center justify-center gap-2">
+        <IconRss size={20} />
+        <div className="flex items-center gap-2 rounded bg-gray-200 px-3 py-1 font-mono text-gray-600">
+          <span>https://claude-code-changelog.vercel.app/feed.xml</span>
+          <CopyButton value="https://claude-code-changelog.vercel.app/feed.xml">
+            {({ copied }) =>
+              copied ? (
+                <IconCheck className="text-green-600" size={16} />
+              ) : (
+                <IconCopy size={16} />
+              )
+            }
+          </CopyButton>
+        </div>
+      </div>
+
       <div className="flex max-w-3xl flex-col gap-8 px-4">
         {ChangelogJson.map((entry) => (
           <ChangelogItem
