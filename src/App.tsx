@@ -1,31 +1,20 @@
-import Markdown from "react-markdown";
 import ChangelogJson from "../data/changelog.json";
+import ChangelogCard from "./components/ChangelogCard";
+import Layout from "./components/Layout";
 
 export default function App() {
   return (
-    <div>
-      <h1>Claude Code Changelog</h1>
-
-      <ul>
+    <Layout>
+      <div className="space-y-6">
         {ChangelogJson.map((entry) => (
-          <li key={entry.version}>
-            <h2>
-              {entry.version}
-              {entry.publishedAt &&
-                ` (${new Date(entry.publishedAt).toLocaleDateString()})`}
-            </h2>
-            <Markdown
-              components={{
-                a: ({ node: _, ...props }) => (
-                  <a {...props} target="_blank" rel="noreferrer" />
-                ),
-              }}
-            >
-              {entry.content}
-            </Markdown>
-          </li>
+          <ChangelogCard
+            key={entry.version}
+            version={entry.version}
+            publishedAt={entry.publishedAt}
+            content={entry.content}
+          />
         ))}
-      </ul>
-    </div>
+      </div>
+    </Layout>
   );
 }
