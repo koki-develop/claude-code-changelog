@@ -2,9 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-10-30T23:06:40.584Z</updated>
+    <updated>2025-10-31T00:26:15.147Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.30]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2030</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2030"/>
+        <updated>2025-10-30T22:23:48.671Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added helpful hint to run <code>security unlock-keychain</code> when encountering API key errors on macOS with locked keychain</li>
+<li>Added <code>allowUnsandboxedCommands</code> sandbox setting to disable the dangerouslyDisableSandbox escape hatch at policy level</li>
+<li>Added <code>disallowedTools</code> field to custom agent definitions for explicit tool blocking</li>
+<li>Added prompt-based stop hooks</li>
+<li>VSCode: Added respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)</li>
+<li>Enabled SSE MCP servers on native build</li>
+<li>Deprecated output styles. Review options in <code>/output-style</code> and use CLAUDE.md or plugins instead</li>
+<li>Removed support for custom ripgrep configuration, resolving an issue where Search returns no results and config discovery fails</li>
+<li>Fixed Explore agent creating unwanted .md investigation files during codebase exploration</li>
+<li>Fixed a bug where <code>/context</code> would sometimes fail with &quot;max_tokens must be greater than thinking.budget_tokens&quot; error message</li>
+<li>Fixed <code>--mcp-config</code> flag to correctly override file-based MCP configurations</li>
+<li>Fixed bug that saved session permissions to local settings</li>
+<li>Fixed MCP tools not being available to sub-agents</li>
+<li>Fixed hooks and plugins not executing when using --dangerously-skip-permissions flag</li>
+<li>Fixed delay when navigating through typeahead suggestions with arrow keys</li>
+<li>VSCode: Restored selection indicator in input footer showing current file or code selection status</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.28]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2028</id>
@@ -625,18 +650,6 @@
         <content type="html"><![CDATA[<ul>
 <li>Background commands: (Ctrl-b) to run any Bash command in the background so Claude can keep working (great for dev servers, tailing logs, etc.)</li>
 <li>Customizable status line: add your terminal prompt to Claude Code with /statusline</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.70]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1070</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1070"/>
-        <updated>2025-08-06T19:15:54.940Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Performance: Optimized message rendering for better performance with large contexts</li>
-<li>Windows: Fixed native file search, ripgrep, and subagent functionality</li>
-<li>Added support for @-mentions in slash command arguments</li>
 </ul>
 ]]></content>
     </entry>
