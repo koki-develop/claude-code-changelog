@@ -2,9 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-10-31T16:07:24.800Z</updated>
+    <updated>2025-10-31T22:06:23.907Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.31]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2031</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2031"/>
+        <updated>2025-10-31T21:19:12.609Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Windows: native installation uses shift+tab as shortcut for mode switching, instead of alt+m</li>
+<li>Vertex: add support for Web Search on supported models</li>
+<li>VSCode: Adding the respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)</li>
+<li>Fixed a bug with subagents and MCP servers related to &quot;Tool names must be unique&quot; error</li>
+<li>Fixed issue causing <code>/compact</code> to fail with <code>prompt_too_long</code> by making it respect existing compact boundaries</li>
+<li>Fixed conversation compaction to respect existing compact boundaries, preventing duplicate summarization of already-compacted messages</li>
+<li>Fixed plugin uninstall not removing plugins</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.30]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2030</id>
@@ -639,17 +655,6 @@
         <updated>2025-08-08T17:55:21.349Z</updated>
         <content type="html"><![CDATA[<ul>
 <li>Ask permissions: have Claude Code always ask for confirmation to use specific tools with /permissions</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.71]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1071</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1071"/>
-        <updated>2025-08-07T21:33:10.140Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Background commands: (Ctrl-b) to run any Bash command in the background so Claude can keep working (great for dev servers, tailing logs, etc.)</li>
-<li>Customizable status line: add your terminal prompt to Claude Code with /statusline</li>
 </ul>
 ]]></content>
     </entry>
