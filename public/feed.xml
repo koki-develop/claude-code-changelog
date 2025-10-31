@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-10-31T00:26:15.147Z</updated>
+    <updated>2025-10-31T16:07:24.800Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
     <entry>
@@ -17,7 +17,7 @@
 <li>Added prompt-based stop hooks</li>
 <li>VSCode: Added respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)</li>
 <li>Enabled SSE MCP servers on native build</li>
-<li>Deprecated output styles. Review options in <code>/output-style</code> and use CLAUDE.md or plugins instead</li>
+<li>Deprecated output styles. Review options in <code>/output-style</code> and use --system-prompt, --append-system-prompt, CLAUDE.md, or plugins instead</li>
 <li>Removed support for custom ripgrep configuration, resolving an issue where Search returns no results and config discovery fails</li>
 <li>Fixed Explore agent creating unwanted .md investigation files during codebase exploration</li>
 <li>Fixed a bug where <code>/context</code> would sometimes fail with &quot;max_tokens must be greater than thinking.budget_tokens&quot; error message</li>
