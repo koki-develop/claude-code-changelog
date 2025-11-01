@@ -1,7 +1,7 @@
 [
   {
     "version": "2.0.31",
-    "content": "- Windows: native installation uses shift+tab as shortcut for mode switching, instead of alt+m\n- Vertex: add support for Web Search on supported models\n- VSCode: Adding the respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)\n- Fixed a bug with subagents and MCP servers related to \"Tool names must be unique\" error\n- Fixed issue causing `/compact` to fail with `prompt_too_long` by making it respect existing compact boundaries\n- Fixed conversation compaction to respect existing compact boundaries, preventing duplicate summarization of already-compacted messages\n- Fixed plugin uninstall not removing plugins",
+    "content": "- Windows: native installation uses shift+tab as shortcut for mode switching, instead of alt+m\n- Vertex: add support for Web Search on supported models\n- VSCode: Adding the respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)\n- Fixed a bug with subagents and MCP servers related to \"Tool names must be unique\" error\n- Fixed issue causing `/compact` to fail with `prompt_too_long` by making it respect existing compact boundaries\n- Fixed plugin uninstall not removing plugins",
     "publishedAt": "2025-10-31T21:19:12.609Z"
   },
   {

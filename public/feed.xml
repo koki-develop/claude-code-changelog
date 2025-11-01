@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-10-31T22:06:23.907Z</updated>
+    <updated>2025-11-01T00:28:56.266Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
     <entry>
@@ -16,7 +16,6 @@
 <li>VSCode: Adding the respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)</li>
 <li>Fixed a bug with subagents and MCP servers related to &quot;Tool names must be unique&quot; error</li>
 <li>Fixed issue causing <code>/compact</code> to fail with <code>prompt_too_long</code> by making it respect existing compact boundaries</li>
-<li>Fixed conversation compaction to respect existing compact boundaries, preventing duplicate summarization of already-compacted messages</li>
 <li>Fixed plugin uninstall not removing plugins</li>
 </ul>
 ]]></content>
