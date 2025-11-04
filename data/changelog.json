@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.32",
+    "content": "- Un-deprecate output styles based on community feedback\n- Added `companyAnnouncements` setting for displaying announcements on startup\n- Fixed hook progress messages not updating correctly during PostToolUse hook execution",
+    "publishedAt": "2025-11-03T23:09:10.512Z"
+  },
+  {
     "version": "2.0.31",
     "content": "- Windows: native installation uses shift+tab as shortcut for mode switching, instead of alt+m\n- Vertex: add support for Web Search on supported models\n- VSCode: Adding the respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)\n- Fixed a bug with subagents and MCP servers related to \"Tool names must be unique\" error\n- Fixed issue causing `/compact` to fail with `prompt_too_long` by making it respect existing compact boundaries\n- Fixed plugin uninstall not removing plugins",
     "publishedAt": "2025-10-31T21:19:12.609Z"
