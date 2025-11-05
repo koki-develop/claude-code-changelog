@@ -2,9 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-05T21:06:15.104Z</updated>
+    <updated>2025-11-05T22:06:37.317Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.34]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2034</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2034"/>
+        <updated>2025-11-05T20:44:58.296Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>VSCode Extension: Added setting to configure the initial permission mode for new conversations</li>
+<li>Improved file path suggestion performance with native Rust-based fuzzy finder</li>
+<li>Fixed infinite token refresh loop that caused MCP servers with OAuth (e.g., Slack) to hang during connection</li>
+<li>Fixed memory crash when reading or writing large files (especially base64-encoded images)</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.33]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2033</id>
@@ -641,19 +654,6 @@
         <updated>2025-08-13T20:59:17.592Z</updated>
         <content type="html"><![CDATA[<ul>
 <li>UI improvements: Fix text contrast for custom subagent colors and spinner rendering issues</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.77]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1077</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1077"/>
-        <updated>2025-08-12T19:12:14.663Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Bash tool: Fix heredoc and multiline string escaping, improve stderr redirection handling</li>
-<li>SDK: Add session support and permission denial tracking</li>
-<li>Fix token limit errors in conversation summarization</li>
-<li>Opus Plan Mode: New setting in <code>/model</code> to run Opus only in plan mode, Sonnet otherwise</li>
 </ul>
 ]]></content>
     </entry>

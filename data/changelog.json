@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.34",
+    "content": "- VSCode Extension: Added setting to configure the initial permission mode for new conversations\n- Improved file path suggestion performance with native Rust-based fuzzy finder\n- Fixed infinite token refresh loop that caused MCP servers with OAuth (e.g., Slack) to hang during connection\n- Fixed memory crash when reading or writing large files (especially base64-encoded images)",
+    "publishedAt": "2025-11-05T20:44:58.296Z"
+  },
+  {
     "version": "2.0.33",
     "content": "- Native binary installs now launch quicker.\n- Fixed `claude doctor` incorrectly detecting Homebrew vs npm-global installations by properly resolving symlinks\n- Fixed `claude mcp serve` exposing tools with incompatible outputSchemas",
     "publishedAt": "2025-11-04T22:27:11.403Z"
