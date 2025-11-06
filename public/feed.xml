@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-05T22:06:37.317Z</updated>
+    <updated>2025-11-06T21:06:06.504Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.35]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2035</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2035"/>
+        <updated>2025-11-06T20:25:20.114Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Improve fuzzy search results when searching commands</li>
+<li>Improved VS Code extension to respect <code>chat.fontSize</code> and <code>chat.fontFamily</code> settings throughout the entire UI, and apply font changes immediately without requiring reload</li>
+<li>Added <code>CLAUDE_CODE_EXIT_AFTER_STOP_DELAY</code> environment variable to automatically exit SDK mode after a specified idle duration, useful for automated workflows and scripts</li>
+<li>Migrated <code>ignorePatterns</code> from project config to deny permissions in the localSettings.</li>
+<li>Fixed messages returning null <code>stop_reason</code> and <code>stop_sequence</code> values</li>
+<li>Fixed menu navigation getting stuck on items with empty string or other falsy values (e.g., in the <code>/hooks</code> menu)</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.34]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2034</id>
@@ -644,16 +659,6 @@
         <content type="html"><![CDATA[<ul>
 <li>Released output styles, including new built-in educational output styles &quot;Explanatory&quot; and &quot;Learning&quot;. Docs: <a href="https://docs.claude.com/en/docs/claude-code/output-styles">https://docs.claude.com/en/docs/claude-code/output-styles</a></li>
 <li>Agents: Fix custom agent loading when agent files are unparsable</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.80]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1080</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1080"/>
-        <updated>2025-08-13T20:59:17.592Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>UI improvements: Fix text contrast for custom subagent colors and spinner rendering issues</li>
 </ul>
 ]]></content>
     </entry>
