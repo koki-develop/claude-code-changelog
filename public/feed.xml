@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-06T21:06:06.504Z</updated>
+    <updated>2025-11-07T22:06:23.993Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.36]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2036</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2036"/>
+        <updated>2025-11-07T21:54:57.368Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed: DISABLE_AUTOUPDATER environment variable now properly disables package manager update notifications</li>
+<li>Fixed queued messages being incorrectly executed as bash commands</li>
+<li>Fixed input being lost when typing while a queued message is processed</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.35]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2035</id>
@@ -648,17 +660,6 @@
 <li>Settings: Validation prevents invalid fields in .claude/settings.json files</li>
 <li>MCP: Improve tool name consistency</li>
 <li>Bash: Fix crash when Claude tries to automatically read large files</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.81]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1081</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1081"/>
-        <updated>2025-08-14T16:41:20.746Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Released output styles, including new built-in educational output styles &quot;Explanatory&quot; and &quot;Learning&quot;. Docs: <a href="https://docs.claude.com/en/docs/claude-code/output-styles">https://docs.claude.com/en/docs/claude-code/output-styles</a></li>
-<li>Agents: Fix custom agent loading when agent files are unparsable</li>
 </ul>
 ]]></content>
     </entry>

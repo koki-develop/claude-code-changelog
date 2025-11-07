@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.36",
+    "content": "- Fixed: DISABLE_AUTOUPDATER environment variable now properly disables package manager update notifications\n- Fixed queued messages being incorrectly executed as bash commands\n- Fixed input being lost when typing while a queued message is processed",
+    "publishedAt": "2025-11-07T21:54:57.368Z"
+  },
+  {
     "version": "2.0.35",
     "content": "- Improve fuzzy search results when searching commands\n- Improved VS Code extension to respect `chat.fontSize` and `chat.fontFamily` settings throughout the entire UI, and apply font changes immediately without requiring reload\n- Added `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY` environment variable to automatically exit SDK mode after a specified idle duration, useful for automated workflows and scripts\n- Migrated `ignorePatterns` from project config to deny permissions in the localSettings.\n- Fixed messages returning null `stop_reason` and `stop_sequence` values\n- Fixed menu navigation getting stuck on items with empty string or other falsy values (e.g., in the `/hooks` menu)",
     "publishedAt": "2025-11-06T20:25:20.114Z"
