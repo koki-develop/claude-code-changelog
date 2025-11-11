@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-10T22:07:11.407Z</updated>
+    <updated>2025-11-11T00:27:28.859Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.37]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2037</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2037"/>
+        <updated>2025-11-10T22:05:27.713Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed how idleness is computed for notifications</li>
+<li>Hooks: Added matcher values for Notification hook events</li>
+<li>Output Styles: Added <code>keep-coding-instructions</code> option to frontmatter</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.36]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2036</id>
@@ -646,20 +658,6 @@
         <content type="html"><![CDATA[<ul>
 <li>@-mention: Support files with spaces in path</li>
 <li>New shimmering spinner</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.82]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1082</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1082"/>
-        <updated>2025-08-15T21:08:19.137Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>SDK: Add request cancellation support</li>
-<li>SDK: New additionalDirectories option to search custom paths, improved slash command processing</li>
-<li>Settings: Validation prevents invalid fields in .claude/settings.json files</li>
-<li>MCP: Improve tool name consistency</li>
-<li>Bash: Fix crash when Claude tries to automatically read large files</li>
 </ul>
 ]]></content>
     </entry>

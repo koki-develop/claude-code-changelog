@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.37",
+    "content": "- Fixed how idleness is computed for notifications\n- Hooks: Added matcher values for Notification hook events\n- Output Styles: Added `keep-coding-instructions` option to frontmatter",
+    "publishedAt": "2025-11-10T22:05:27.713Z"
+  },
+  {
     "version": "2.0.36",
     "content": "- Fixed: DISABLE_AUTOUPDATER environment variable now properly disables package manager update notifications\n- Fixed queued messages being incorrectly executed as bash commands\n- Fixed input being lost when typing while a queued message is processed",
     "publishedAt": "2025-11-07T21:54:57.368Z"
