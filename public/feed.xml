@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-14T23:06:33.541Z</updated>
+    <updated>2025-11-15T00:26:11.309Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.42]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2042</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2042"/>
+        <updated>2025-11-14T23:00:23.267Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added <code>agent_id</code> and <code>agent_transcript_path</code> fields to <code>SubagentStop</code> hooks.</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.41]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2041</id>
@@ -655,19 +665,6 @@
         <content type="html"><![CDATA[<ul>
 <li>Status line input now includes session cost info</li>
 <li>Hooks: Introduced SessionEnd hook</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.84]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1084</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1084"/>
-        <updated>2025-08-18T22:36:19.901Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fix tool_use/tool_result id mismatch error when network is unstable</li>
-<li>Fix Claude sometimes ignoring real-time steering when wrapping up a task</li>
-<li>@-mention: Add ~/.claude/* files to suggestions for easier agent, output style, and slash command editing</li>
-<li>Use built-in ripgrep by default; to opt out of this behavior, set USE_BUILTIN_RIPGREP=0</li>
 </ul>
 ]]></content>
     </entry>
