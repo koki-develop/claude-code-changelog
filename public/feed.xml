@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-18T05:06:54.097Z</updated>
+    <updated>2025-11-18T17:07:08.700Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.45]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2045</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2045"/>
+        <updated>2025-11-18T16:31:06.710Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Add support for Azure AI Foundry! See <a href="https://code.claude.com/docs/en/azure-ai-foundry">https://code.claude.com/docs/en/azure-ai-foundry</a></li>
+<li>Added <code>PermissionRequest</code> hook to automatically approve or deny tool permission requests with custom logic</li>
+<li>Send background tasks to Claude Code on the web by starting a message with <code>&amp;</code></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.43]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2043</id>
@@ -659,18 +671,6 @@
 <li>Fixed incorrect usage tracking in /cost.</li>
 <li>Introduced <code>ANTHROPIC_DEFAULT_SONNET_MODEL</code> and <code>ANTHROPIC_DEFAULT_OPUS_MODEL</code> for controlling model aliases opusplan, opus, and sonnet.</li>
 <li>Bedrock: Updated default Sonnet model to Sonnet 4</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.86]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1086</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1086"/>
-        <updated>2025-08-20T22:10:29.765Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Added /context to help users self-serve debug context issues</li>
-<li>SDK: Added UUID support for all SDK messages</li>
-<li>SDK: Added <code>--replay-user-messages</code> to replay user messages back to stdout</li>
 </ul>
 ]]></content>
     </entry>
