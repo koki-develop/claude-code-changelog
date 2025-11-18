@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.43",
+    "content": "- Added `permissionMode` field for custom agents\n- Added `tool_use_id` field to `PreToolUseHookInput` and `PostToolUseHookInput` types\n- Added skills frontmatter field to declare skills to auto-load for subagents\n- Added the `SubagentStart` hook event\n- Fixed nested `CLAUDE.md` files not loading when @-mentioning files\n- Fixed duplicate rendering of some messages in the UI\n- Fixed some visual flickers\n- Fixed NotebookEdit tool inserting cells at incorrect positions when cell IDs matched the pattern `cell-N`",
+    "publishedAt": "2025-11-17T22:19:17.451Z"
+  },
+  {
     "version": "2.0.42",
     "content": "- Added `agent_id` and `agent_transcript_path` fields to `SubagentStop` hooks.",
     "publishedAt": "2025-11-14T23:00:23.267Z"
