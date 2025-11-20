@@ -2,9 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-19T23:06:22.096Z</updated>
+    <updated>2025-11-20T00:26:42.319Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.47]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2047</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2047"/>
+        <updated>2025-11-19T22:38:50.075Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Improved error messages and validation for <code>claude --teleport</code></li>
+<li>Improved error handling in <code>/usage</code></li>
+<li>Fixed race condition with history entry not getting logged at exit</li>
+<li>Fixed Vertex AI configuration not being applied from <code>settings.json</code></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.46]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2046</id>
@@ -657,16 +670,6 @@
         <content type="html"><![CDATA[<ul>
 <li>Windows: Add alt + v shortcut for pasting images from clipboard</li>
 <li>Support NO_PROXY environment variable to bypass proxy for specified hostnames and IPs</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.90]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1090</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1090"/>
-        <updated>2025-08-24T22:41:06.467Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Settings file changes take effect immediately - no restart required</li>
 </ul>
 ]]></content>
     </entry>
