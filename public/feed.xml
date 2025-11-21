@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-21T00:26:25.040Z</updated>
+    <updated>2025-11-21T01:34:36.225Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.49]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2049</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2049"/>
+        <updated>2025-11-21T00:00:19.160Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added readline-style ctrl-y for pasting deleted text</li>
+<li>Improved clarity of usage limit warning message</li>
+<li>Fixed handling of subagent permissions</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.47]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2047</id>
@@ -122,7 +134,6 @@
 <li>Improved VS Code extension to respect <code>chat.fontSize</code> and <code>chat.fontFamily</code> settings throughout the entire UI, and apply font changes immediately without requiring reload</li>
 <li>Added <code>CLAUDE_CODE_EXIT_AFTER_STOP_DELAY</code> environment variable to automatically exit SDK mode after a specified idle duration, useful for automated workflows and scripts</li>
 <li>Migrated <code>ignorePatterns</code> from project config to deny permissions in the localSettings.</li>
-<li>Fixed messages returning null <code>stop_reason</code> and <code>stop_sequence</code> values</li>
 <li>Fixed menu navigation getting stuck on items with empty string or other falsy values (e.g., in the <code>/hooks</code> menu)</li>
 </ul>
 ]]></content>
@@ -659,17 +670,6 @@
 <li>/memory command now allows direct editing of all imported memory files</li>
 <li>SDK: Add custom tools as callbacks</li>
 <li>Added /todos command to list current todo items</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.93]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1093</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1093"/>
-        <updated>2025-08-26T22:22:24.524Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Windows: Add alt + v shortcut for pasting images from clipboard</li>
-<li>Support NO_PROXY environment variable to bypass proxy for specified hostnames and IPs</li>
 </ul>
 ]]></content>
     </entry>
