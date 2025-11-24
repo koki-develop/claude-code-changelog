@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-22T00:25:41.274Z</updated>
+    <updated>2025-11-24T19:05:26.093Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.51]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2051</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2051"/>
+        <updated>2025-11-24T18:27:18.026Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added Opus 4.5! <a href="https://www.anthropic.com/news/claude-opus-4-5">https://www.anthropic.com/news/claude-opus-4-5</a></li>
+<li>Introducing Claude Code for Desktop: <a href="https://claude.com/download">https://claude.com/download</a></li>
+<li>To give you room to try out our new model, we&#39;ve updated usage limits for Claude Code users. See the Claude Opus 4.5 blog for full details</li>
+<li>Pro users can now purchase extra usage for access to Opus 4.5 in Claude Code</li>
+<li>Plan Mode now builds more precise plans and executes more thoroughly</li>
+<li>Usage limit notifications now easier to understand</li>
+<li>Switched <code>/usage</code> back to &quot;% used&quot;</li>
+<li>Fixed handling of thinking errors</li>
+<li>Fixed performance regression</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.50]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2050</id>
@@ -660,16 +678,6 @@
         <updated>2025-09-04T23:22:21.845Z</updated>
         <content type="html"><![CDATA[<ul>
 <li>Windows: Fixed path permission matching to consistently use POSIX format (e.g., <code>Read(//c/Users/...)</code>)</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.97]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1097</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#1097"/>
-        <updated>2025-08-27T20:13:08.204Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Settings: /doctor now validates permission rule syntax and suggests corrections</li>
 </ul>
 ]]></content>
     </entry>
