@@ -2,9 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-24T23:06:36.706Z</updated>
+    <updated>2025-11-25T00:25:25.145Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.52]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2052</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2052"/>
+        <updated>2025-11-24T23:01:06.778Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed duplicate message display when starting Claude with a command line argument</li>
+<li>Fixed <code>/usage</code> command progress bars to fill up as usage increases (instead of showing remaining percentage)</li>
+<li>Fixed image pasting not working on Linux systems running Wayland (now falls back to wl-paste when xclip is unavailable)</li>
+<li>Permit some uses of <code>$!</code> in bash commands</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.51]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2051</id>
@@ -668,16 +681,6 @@
         <updated>2025-09-08T23:01:00.279Z</updated>
         <content type="html"><![CDATA[<ul>
 <li>SDK: Added partial message streaming support via <code>--include-partial-messages</code> CLI flag</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.106]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10106</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10106"/>
-        <updated>2025-09-04T23:22:21.845Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Windows: Fixed path permission matching to consistently use POSIX format (e.g., <code>Read(//c/Users/...)</code>)</li>
 </ul>
 ]]></content>
     </entry>
