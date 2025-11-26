@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-26T01:34:37.371Z</updated>
+    <updated>2025-11-26T18:08:30.080Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
     <entry>
@@ -12,9 +12,7 @@
         <updated>2025-11-25T23:52:47.226Z</updated>
         <content type="html"><![CDATA[<ul>
 <li>Hooks: Enable PermissionRequest hooks to process &#39;always allow&#39; suggestions and apply permission updates</li>
-<li>VSCode Extension: Added support for VSCode&#39;s secondary sidebar (VSCode 1.97+), allowing Claude Code to be displayed on the right sidebar while keeping the file explorer on the left. Requires setting &quot;sidebar&quot; as &quot;Preferred Location&quot; in the config.</li>
-<li>VSCode Extension: Added &quot;Preferred Location&quot; setting to configure where Claude opens by default (sidebar or panel)</li>
-<li>VSCode Extension: Added keyboard shortcut (Cmd+N / Ctrl+N) to start new conversations</li>
+<li>Fix issue with excessive iTerm notifications</li>
 </ul>
 ]]></content>
     </entry>
