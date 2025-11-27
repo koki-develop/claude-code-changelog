@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.55",
+    "content": "- Fixed proxy DNS resolution being forced on by default. Now opt-in via `CLAUDE_CODE_PROXY_RESOLVES_HOSTS=true` environment variable\n- Fixed keyboard navigation becoming unresponsive when holding down arrow keys in memory location selector\n- Improved AskUserQuestion tool to auto-submit single-select questions on the last question, eliminating the extra review screen for simple question flows\n- Improved fuzzy matching for `@` file suggestions with faster, more accurate results",
+    "publishedAt": "2025-11-26T22:54:58.963Z"
+  },
+  {
     "version": "2.0.54",
     "content": "- Hooks: Enable PermissionRequest hooks to process 'always allow' suggestions and apply permission updates\n- Fix issue with excessive iTerm notifications",
     "publishedAt": "2025-11-25T23:52:47.226Z"

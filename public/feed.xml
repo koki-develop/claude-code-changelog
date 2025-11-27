@@ -2,9 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-11-26T23:06:29.743Z</updated>
+    <updated>2025-11-27T00:26:43.715Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.55]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2055</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2055"/>
+        <updated>2025-11-26T22:54:58.963Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed proxy DNS resolution being forced on by default. Now opt-in via <code>CLAUDE_CODE_PROXY_RESOLVES_HOSTS=true</code> environment variable</li>
+<li>Fixed keyboard navigation becoming unresponsive when holding down arrow keys in memory location selector</li>
+<li>Improved AskUserQuestion tool to auto-submit single-select questions on the last question, eliminating the extra review screen for simple question flows</li>
+<li>Improved fuzzy matching for <code>@</code> file suggestions with faster, more accurate results</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.54]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2054</id>
@@ -670,18 +683,6 @@
         <content type="html"><![CDATA[<ul>
 <li>/model now validates provided model names</li>
 <li>Fixed Bash tool crashes caused by malformed shell syntax parsing</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.110]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10110</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10110"/>
-        <updated>2025-09-09T22:06:44.373Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>/terminal-setup command now supports WezTerm</li>
-<li>MCP: OAuth tokens now proactively refresh before expiration</li>
-<li>Fixed reliability issues with background Bash processes</li>
 </ul>
 ]]></content>
     </entry>
