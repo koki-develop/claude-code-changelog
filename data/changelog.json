@@ -121,7 +121,7 @@
   },
   {
     "version": "2.0.25",
-    "content": "- Removed legacy SDK entrypoint. Please migrate to @anthropic-ai/claude-agent-sdk for future SDK updates: https://docs.claude.com/en/docs/claude-code/sdk/migration-guide",
+    "content": "- Removed legacy SDK entrypoint. Please migrate to @anthropic-ai/claude-agent-sdk for future SDK updates: https://platform.claude.com/docs/en/agent-sdk/migration-guide",
     "publishedAt": "2025-10-21T21:03:51.747Z"
   },
   {
@@ -171,7 +171,7 @@
   },
   {
     "version": "2.0.12",
-    "content": "- **Plugin System Released**: Extend Claude Code with custom commands, agents, hooks, and MCP servers from marketplaces\n- `/plugin install`, `/plugin enable/disable`, `/plugin marketplace` commands for plugin management\n- Repository-level plugin configuration via `extraKnownMarketplaces` for team collaboration\n- `/plugin validate` command for validating plugin structure and configuration\n- Plugin announcement blog post at https://www.anthropic.com/news/claude-code-plugins\n- Plugin documentation available at https://docs.claude.com/en/docs/claude-code/plugins\n- Comprehensive error messages and diagnostics via `/doctor` command\n- Avoid flickering in `/model` selector\n- Improvements to `/help`\n- Avoid mentioning hooks in `/resume` summaries\n- Changes to the \"verbose\" setting in `/config` now persist across sessions",
+    "content": "- **Plugin System Released**: Extend Claude Code with custom commands, agents, hooks, and MCP servers from marketplaces\n- `/plugin install`, `/plugin enable/disable`, `/plugin marketplace` commands for plugin management\n- Repository-level plugin configuration via `extraKnownMarketplaces` for team collaboration\n- `/plugin validate` command for validating plugin structure and configuration\n- Plugin announcement blog post at https://www.anthropic.com/news/claude-code-plugins\n- Plugin documentation available at https://code.claude.com/docs/en/plugins\n- Comprehensive error messages and diagnostics via `/doctor` command\n- Avoid flickering in `/model` selector\n- Improvements to `/help`\n- Avoid mentioning hooks in `/resume` summaries\n- Changes to the \"verbose\" setting in `/config` now persist across sessions",
     "publishedAt": "2025-10-09T15:43:28.593Z"
   },
   {
@@ -221,7 +221,7 @@
   },
   {
     "version": "1.0.123",
-    "content": "- Bash permission rules now support output redirections when matching (e.g., `Bash(python:*)` matches `python script.py > output.txt`)\n- Fixed thinking mode triggering on negation phrases like \"don't think\"\n- Fixed rendering performance degradation during token streaming\n- Added SlashCommand tool, which enables Claude to invoke your slash commands. https://docs.claude.com/en/docs/claude-code/slash-commands#SlashCommand-tool\n- Enhanced BashTool environment snapshot logging\n- Fixed a bug where resuming a conversation in headless mode would sometimes enable thinking unnecessarily\n- Migrated --debug logging to a file, to enable easy tailing & filtering",
+    "content": "- Bash permission rules now support output redirections when matching (e.g., `Bash(python:*)` matches `python script.py > output.txt`)\n- Fixed thinking mode triggering on negation phrases like \"don't think\"\n- Fixed rendering performance degradation during token streaming\n- Added SlashCommand tool, which enables Claude to invoke your slash commands. https://code.claude.com/docs/en/slash-commands#SlashCommand-tool\n- Enhanced BashTool environment snapshot logging\n- Fixed a bug where resuming a conversation in headless mode would sometimes enable thinking unnecessarily\n- Migrated --debug logging to a file, to enable easy tailing & filtering",
     "publishedAt": "2025-09-23T20:49:33.199Z"
   },
   {
@@ -326,7 +326,7 @@
   },
   {
     "version": "1.0.81",
-    "content": "- Released output styles, including new built-in educational output styles \"Explanatory\" and \"Learning\". Docs: https://docs.claude.com/en/docs/claude-code/output-styles\n- Agents: Fix custom agent loading when agent files are unparsable",
+    "content": "- Released output styles, including new built-in educational output styles \"Explanatory\" and \"Learning\". Docs: https://code.claude.com/docs/en/output-styles\n- Agents: Fix custom agent loading when agent files are unparsable",
     "publishedAt": "2025-08-14T16:41:20.746Z"
   },
   {
@@ -486,7 +486,7 @@
   },
   {
     "version": "1.0.38",
-    "content": "- Released hooks. Special thanks to community input in https://github.com/anthropics/claude-code/issues/712. Docs: https://docs.claude.com/en/docs/claude-code/hooks",
+    "content": "- Released hooks. Special thanks to community input in https://github.com/anthropics/claude-code/issues/712. Docs: https://code.claude.com/docs/en/hooks",
     "publishedAt": "2025-06-30T20:29:03.323Z"
   },
   {

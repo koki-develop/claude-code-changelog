@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-03T06:09:53.071Z</updated>
+    <updated>2025-12-03T13:17:51.643Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
     <entry>
@@ -343,7 +343,7 @@
         <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2025"/>
         <updated>2025-10-21T21:03:51.747Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Removed legacy SDK entrypoint. Please migrate to @anthropic-ai/claude-agent-sdk for future SDK updates: <a href="https://docs.claude.com/en/docs/claude-code/sdk/migration-guide">https://docs.claude.com/en/docs/claude-code/sdk/migration-guide</a></li>
+<li>Removed legacy SDK entrypoint. Please migrate to @anthropic-ai/claude-agent-sdk for future SDK updates: <a href="https://platform.claude.com/docs/en/agent-sdk/migration-guide">https://platform.claude.com/docs/en/agent-sdk/migration-guide</a></li>
 </ul>
 ]]></content>
     </entry>
@@ -471,7 +471,7 @@
 <li>Repository-level plugin configuration via <code>extraKnownMarketplaces</code> for team collaboration</li>
 <li><code>/plugin validate</code> command for validating plugin structure and configuration</li>
 <li>Plugin announcement blog post at <a href="https://www.anthropic.com/news/claude-code-plugins">https://www.anthropic.com/news/claude-code-plugins</a></li>
-<li>Plugin documentation available at <a href="https://docs.claude.com/en/docs/claude-code/plugins">https://docs.claude.com/en/docs/claude-code/plugins</a></li>
+<li>Plugin documentation available at <a href="https://code.claude.com/docs/en/plugins">https://code.claude.com/docs/en/plugins</a></li>
 <li>Comprehensive error messages and diagnostics via <code>/doctor</code> command</li>
 <li>Avoid flickering in <code>/model</code> selector</li>
 <li>Improvements to <code>/help</code></li>
@@ -609,7 +609,7 @@
 <li>Bash permission rules now support output redirections when matching (e.g., <code>Bash(python:*)</code> matches <code>python script.py &gt; output.txt</code>)</li>
 <li>Fixed thinking mode triggering on negation phrases like &quot;don&#39;t think&quot;</li>
 <li>Fixed rendering performance degradation during token streaming</li>
-<li>Added SlashCommand tool, which enables Claude to invoke your slash commands. <a href="https://docs.claude.com/en/docs/claude-code/slash-commands#SlashCommand-tool">https://docs.claude.com/en/docs/claude-code/slash-commands#SlashCommand-tool</a></li>
+<li>Added SlashCommand tool, which enables Claude to invoke your slash commands. <a href="https://code.claude.com/docs/en/slash-commands#SlashCommand-tool">https://code.claude.com/docs/en/slash-commands#SlashCommand-tool</a></li>
 <li>Enhanced BashTool environment snapshot logging</li>
 <li>Fixed a bug where resuming a conversation in headless mode would sometimes enable thinking unnecessarily</li>
 <li>Migrated --debug logging to a file, to enable easy tailing &amp; filtering</li>
