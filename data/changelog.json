@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.58",
+    "content": "- Pro users now have access to Opus 4.5 as part of their subscription!\n- Fixed timer duration showing \"11m 60s\" instead of \"12m 0s\"\n- Windows: Managed settings now prefer `C:\\Program Files\\ClaudeCode` if it exists. Support for `C:\\ProgramData\\ClaudeCode` will be removed in a future version.",
+    "publishedAt": "2025-12-03T18:34:25.537Z"
+  },
+  {
     "version": "2.0.57",
     "content": "- Added feedback input when rejecting plans, allowing users to tell Claude what to change\n- VSCode: Added streaming message support for real-time response display",
     "publishedAt": "2025-12-03T04:52:56.549Z"
@@ -51,7 +56,7 @@
   },
   {
     "version": "2.0.45",
-    "content": "- Add support for Microsoft Foundry! See https://code.claude.com/docs/en/azure-ai-foundry\n- Added `PermissionRequest` hook to automatically approve or deny tool permission requests with custom logic\n- Send background tasks to Claude Code on the web by starting a message with `&`",
+    "content": "- Added support for Microsoft Foundry! See https://code.claude.com/docs/en/azure-ai-foundry\n- Added `PermissionRequest` hook to automatically approve or deny tool permission requests with custom logic\n- Send background tasks to Claude Code on the web by starting a message with `&`",
     "publishedAt": "2025-11-18T16:31:06.710Z"
   },
   {

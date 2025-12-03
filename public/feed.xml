@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-03T19:06:11.564Z</updated>
+    <updated>2025-12-03T20:07:27.519Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.58]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2058</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2058"/>
+        <updated>2025-12-03T18:34:25.537Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Pro users now have access to Opus 4.5 as part of their subscription!</li>
+<li>Fixed timer duration showing &quot;11m 60s&quot; instead of &quot;12m 0s&quot;</li>
+<li>Windows: Managed settings now prefer <code>C:\Program Files\ClaudeCode</code> if it exists. Support for <code>C:\ProgramData\ClaudeCode</code> will be removed in a future version.</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.57]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2057</id>
@@ -136,7 +148,7 @@
         <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2045"/>
         <updated>2025-11-18T16:31:06.710Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Add support for Microsoft Foundry! See <a href="https://code.claude.com/docs/en/azure-ai-foundry">https://code.claude.com/docs/en/azure-ai-foundry</a></li>
+<li>Added support for Microsoft Foundry! See <a href="https://code.claude.com/docs/en/azure-ai-foundry">https://code.claude.com/docs/en/azure-ai-foundry</a></li>
 <li>Added <code>PermissionRequest</code> hook to automatically approve or deny tool permission requests with custom logic</li>
 <li>Send background tasks to Claude Code on the web by starting a message with <code>&amp;</code></li>
 </ul>
@@ -669,17 +681,6 @@
 <li>Show condensed output for post-tool hooks to reduce visual clutter</li>
 <li>Fix visual feedback when loading state completes</li>
 <li>Improve UI consistency for permission request dialogs</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.113]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10113</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10113"/>
-        <updated>2025-09-13T02:24:02.502Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Deprecated piped input in interactive mode</li>
-<li>Move Ctrl+R keybinding for toggling transcript to Ctrl+O</li>
 </ul>
 ]]></content>
     </entry>
