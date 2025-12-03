@@ -2,9 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-03T05:07:09.698Z</updated>
+    <updated>2025-12-03T06:09:53.071Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.57]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2057</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2057"/>
+        <updated>2025-12-03T04:52:56.549Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added feedback input when rejecting plans, allowing users to tell Claude what to change</li>
+<li>VSCode: Added streaming message support for real-time response display</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.56]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2056</id>
@@ -669,20 +680,6 @@
         <content type="html"><![CDATA[<ul>
 <li>Deprecated piped input in interactive mode</li>
 <li>Move Ctrl+R keybinding for toggling transcript to Ctrl+O</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.112]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10112</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10112"/>
-        <updated>2025-09-12T00:07:45.734Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Transcript mode (Ctrl+R): Added the model used to generate each assistant message</li>
-<li>Addressed issue where some Claude Max users were incorrectly recognized as Claude Pro users</li>
-<li>Hooks: Added systemMessage support for SessionEnd hooks</li>
-<li>Added <code>spinnerTipsEnabled</code> setting to disable spinner tips</li>
-<li>IDE: Various improvements and bug fixes</li>
 </ul>
 ]]></content>
     </entry>
