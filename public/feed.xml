@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-04T22:05:44.523Z</updated>
+    <updated>2025-12-04T23:06:29.392Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.59]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2059</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2059"/>
+        <updated>2025-12-04T21:59:34.519Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added --agent CLI flag to override the agent setting for the current session</li>
+<li>Added <code>agent</code> setting to configure main thread with a specific agent&#39;s system prompt, tool restrictions, and model</li>
+<li>VS Code: Fixed .claude.json config file being read from incorrect location</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.58]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2058</id>
@@ -666,21 +678,6 @@
 <li>Add sed command to auto-allowed commands in acceptEdits mode</li>
 <li>Fix Windows PATH comparison to be case-insensitive for drive letters</li>
 <li>Add permissions management hint to /add-dir output</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.115]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10115</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10115"/>
-        <updated>2025-09-16T00:07:57.334Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Improve thinking mode display with enhanced visual effects</li>
-<li>Type /t to temporarily disable thinking mode in your prompt</li>
-<li>Improve path validation for glob and grep tools</li>
-<li>Show condensed output for post-tool hooks to reduce visual clutter</li>
-<li>Fix visual feedback when loading state completes</li>
-<li>Improve UI consistency for permission request dialogs</li>
 </ul>
 ]]></content>
     </entry>

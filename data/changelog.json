@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.59",
+    "content": "- Added --agent CLI flag to override the agent setting for the current session\n- Added `agent` setting to configure main thread with a specific agent's system prompt, tool restrictions, and model\n- VS Code: Fixed .claude.json config file being read from incorrect location",
+    "publishedAt": "2025-12-04T21:59:34.519Z"
+  },
+  {
     "version": "2.0.58",
     "content": "- Pro users now have access to Opus 4.5 as part of their subscription!\n- Fixed timer duration showing \"11m 60s\" instead of \"12m 0s\"\n- Windows: Managed settings now prefer `C:\\Program Files\\ClaudeCode` if it exists. Support for `C:\\ProgramData\\ClaudeCode` will be removed in a future version.",
     "publishedAt": "2025-12-03T18:34:25.537Z"
