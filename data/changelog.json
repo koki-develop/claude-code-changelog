@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.61",
+    "content": "- Reverted VSCode support for multiple terminal clients due to responsiveness issues.",
+    "publishedAt": "2025-12-07T09:21:37.086Z"
+  },
+  {
     "version": "2.0.60",
     "content": "- Added background agent support. Agents run in the background while you work\n- Added --disable-slash-commands CLI flag to disable all slash commands\n- Added model name to \"Co-Authored-By\" commit messages\n- Enabled \"/mcp enable [server-name]\" or \"/mcp disable [server-name]\" to quickly toggle all servers\n- Updated Fetch to skip summarization for pre-approved websites\n- VSCode: Added support for multiple terminal clients connecting to the IDE server simultaneously",
     "publishedAt": "2025-12-05T21:53:25.502Z"

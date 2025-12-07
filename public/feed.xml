@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-07T10:06:15.850Z</updated>
+    <updated>2025-12-07T11:05:26.119Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.61]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2061</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2061"/>
+        <updated>2025-12-07T09:21:37.086Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Reverted VSCode support for multiple terminal clients due to responsiveness issues.</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.60]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2060</id>
@@ -666,19 +676,6 @@
 <li>Enhanced sessions dialog responsiveness and visual feedback</li>
 <li>Fixed IDE compatibility issue by removing worktree support check</li>
 <li>Fixed security vulnerability where Bash tool permission checks could be bypassed using prefix matching</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.119]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10119</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10119"/>
-        <updated>2025-09-18T21:03:38.113Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fix Windows issue where process visually freezes on entering interactive mode</li>
-<li>Support dynamic headers for MCP servers via headersHelper configuration</li>
-<li>Fix thinking mode not working in headless sessions</li>
-<li>Fix slash commands now properly update allowed tools instead of replacing them</li>
 </ul>
 ]]></content>
     </entry>
