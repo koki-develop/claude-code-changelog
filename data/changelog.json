@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.62",
+    "content": "- Added \"(Recommended)\" indicator for multiple-choice questions, with the recommended option moved to the top of the list\n- Added `attribution` setting to customize commit and PR bylines (deprecates `includeCoAuthoredBy`)\n- Fixed duplicate slash commands appearing when ~/.claude is symlinked to a project directory\n- Fixed slash command selection not working when multiple commands share the same name\n- Fixed an issue where skill files inside symlinked skill directories could become circular symlinks\n- Fixed running versions getting removed because lock file incorrectly going stale\n- Fixed IDE diff tab not closing when rejecting file changes",
+    "publishedAt": "2025-12-09T00:21:11.631Z"
+  },
+  {
     "version": "2.0.61",
     "content": "- Reverted VSCode support for multiple terminal clients due to responsiveness issues.",
     "publishedAt": "2025-12-07T09:21:37.086Z"

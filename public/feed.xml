@@ -2,9 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-09T00:28:10.408Z</updated>
+    <updated>2025-12-09T02:38:38.726Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.62]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2062</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2062"/>
+        <updated>2025-12-09T00:21:11.631Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added &quot;(Recommended)&quot; indicator for multiple-choice questions, with the recommended option moved to the top of the list</li>
+<li>Added <code>attribution</code> setting to customize commit and PR bylines (deprecates <code>includeCoAuthoredBy</code>)</li>
+<li>Fixed duplicate slash commands appearing when ~/.claude is symlinked to a project directory</li>
+<li>Fixed slash command selection not working when multiple commands share the same name</li>
+<li>Fixed an issue where skill files inside symlinked skill directories could become circular symlinks</li>
+<li>Fixed running versions getting removed because lock file incorrectly going stale</li>
+<li>Fixed IDE diff tab not closing when rejecting file changes</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.61]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2061</id>
@@ -662,20 +678,6 @@
 <li>Enhanced BashTool environment snapshot logging</li>
 <li>Fixed a bug where resuming a conversation in headless mode would sometimes enable thinking unnecessarily</li>
 <li>Migrated --debug logging to a file, to enable easy tailing &amp; filtering</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.120]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10120</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10120"/>
-        <updated>2025-09-19T21:08:21.676Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fix input lag during typing, especially noticeable with large prompts</li>
-<li>Improved VSCode extension command registry and sessions dialog user experience</li>
-<li>Enhanced sessions dialog responsiveness and visual feedback</li>
-<li>Fixed IDE compatibility issue by removing worktree support check</li>
-<li>Fixed security vulnerability where Bash tool permission checks could be bypassed using prefix matching</li>
 </ul>
 ]]></content>
     </entry>
