@@ -2,9 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-10T01:35:47.577Z</updated>
+    <updated>2025-12-10T02:40:26.404Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.64]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2064</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2064"/>
+        <updated>2025-12-10T01:15:46.128Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Made auto-compacting instant</li>
+<li>Agents and bash commands can run asynchronously and send messages to wake up the main agent</li>
+<li>/stats now provides users with interesting CC stats, such as favorite model, usage graph, usage streak</li>
+<li>Added named session support: use <code>/rename</code> to name sessions, <code>/resume &lt;name&gt;</code> in REPL or <code>claude --resume &lt;name&gt;</code> from the terminal to resume them</li>
+<li>Added support for .claude/rules/`.  See <a href="https://code.claude.com/docs/en/memory">https://code.claude.com/docs/en/memory</a> for details.</li>
+<li>Added image dimension metadata when images are resized, enabling accurate coordinate mappings for large images</li>
+<li>Fixed auto-loading .env when using native installer</li>
+<li>Fixed <code>--system-prompt</code> being ignored when using <code>--continue</code> or <code>--resume</code> flags</li>
+<li>Improved <code>/resume</code> screen with grouped forked sessions and keyboard shortcuts for preview (P) and rename (R)</li>
+<li>VSCode: Added copy-to-clipboard button on code blocks and bash tool inputs</li>
+<li>VSCode: Fixed extension not working on Windows ARM64 by falling back to x64 binary via emulation</li>
+<li>Bedrock: Improve efficiency of token counting</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.62]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2062</id>
@@ -662,22 +683,6 @@
 <li>No longer inform Claude of the list of allowed tools when permission is denied</li>
 <li>Fixed security vulnerability in Bash tool permission checks</li>
 <li>Improved VSCode extension performance for large files</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.123]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10123</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10123"/>
-        <updated>2025-09-23T20:49:33.199Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Bash permission rules now support output redirections when matching (e.g., <code>Bash(python:*)</code> matches <code>python script.py &gt; output.txt</code>)</li>
-<li>Fixed thinking mode triggering on negation phrases like &quot;don&#39;t think&quot;</li>
-<li>Fixed rendering performance degradation during token streaming</li>
-<li>Added SlashCommand tool, which enables Claude to invoke your slash commands. <a href="https://code.claude.com/docs/en/slash-commands#SlashCommand-tool">https://code.claude.com/docs/en/slash-commands#SlashCommand-tool</a></li>
-<li>Enhanced BashTool environment snapshot logging</li>
-<li>Fixed a bug where resuming a conversation in headless mode would sometimes enable thinking unnecessarily</li>
-<li>Migrated --debug logging to a file, to enable easy tailing &amp; filtering</li>
 </ul>
 ]]></content>
     </entry>
