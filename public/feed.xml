@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-11T05:08:46.532Z</updated>
+    <updated>2025-12-11T19:07:50.336Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
     <entry>
@@ -38,6 +38,7 @@
 <li>VSCode: Added copy-to-clipboard button on code blocks and bash tool inputs</li>
 <li>VSCode: Fixed extension not working on Windows ARM64 by falling back to x64 binary via emulation</li>
 <li>Bedrock: Improve efficiency of token counting</li>
+<li>Bedrock: Add support for <code>aws login</code> AWS Management Console credentials</li>
 <li>Unshipped AgentOutputTool and BashOutputTool, in favor of a new unified TaskOutputTool</li>
 </ul>
 ]]></content>
