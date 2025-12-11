@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-11T03:34:15.781Z</updated>
+    <updated>2025-12-11T05:08:46.532Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.65]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2065</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2065"/>
+        <updated>2025-12-11T02:41:29.924Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added ability to switch models while writing a prompt using alt+p (linux, windows), option+p (macos).</li>
+<li>Added context window information to status line input</li>
+<li>Added <code>fileSuggestion</code> setting for custom <code>@</code> file search commands</li>
+<li>Added <code>CLAUDE_CODE_SHELL</code> environment variable to override automatic shell detection (useful when login shell differs from actual working shell)</li>
+<li>Fixed prompt not being saved to history when aborting a query with Escape</li>
+<li>Fixed Read tool image handling to identify format from bytes instead of file extension</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.64]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2064</id>
@@ -670,20 +685,6 @@
         <content type="html"><![CDATA[<ul>
 <li>Enable /context command for Bedrock and Vertex</li>
 <li>Add mTLS support for HTTP-based OpenTelemetry exporters</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.124]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10124</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10124"/>
-        <updated>2025-09-25T01:37:53.959Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Set <code>CLAUDE_BASH_NO_LOGIN</code> environment variable to 1 or true to to skip login shell for BashTool</li>
-<li>Fix Bedrock and Vertex environment variables evaluating all strings as truthy</li>
-<li>No longer inform Claude of the list of allowed tools when permission is denied</li>
-<li>Fixed security vulnerability in Bash tool permission checks</li>
-<li>Improved VSCode extension performance for large files</li>
 </ul>
 ]]></content>
     </entry>
