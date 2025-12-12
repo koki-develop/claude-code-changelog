@@ -2,9 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-12T00:28:06.476Z</updated>
+    <updated>2025-12-12T01:35:19.349Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.67]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2067</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2067"/>
+        <updated>2025-12-11T23:56:31.532Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Claude now suggests prompts to speed up your workflow: press Tab to accept or Enter to submit</li>
+<li>Thinking mode is now enabled by default for Opus 4.5</li>
+<li>Thinking mode configuration has moved to /config</li>
+<li>Added search functionality to <code>/permissions</code> command with <code>/</code> keyboard shortcut for filtering rules by tool name</li>
+<li>Show reason why autoupdater is disabled in <code>/doctor</code></li>
+<li>Fixed false &quot;Another process is currently updating Claude&quot; error when running <code>claude update</code> while another instance is already on the latest version</li>
+<li>Fixed MCP servers from <code>.mcp.json</code> being stuck in pending state when running in non-interactive mode (<code>-p</code> flag or piped input)</li>
+<li>Fixed scroll position resetting after deleting a permission rule in <code>/permissions</code></li>
+<li>Fixed word deletion (opt+delete) and word navigation (opt+arrow) not working correctly with non-Latin text such as Cyrillic, Greek, Arabic, Hebrew, Thai, and Chinese</li>
+<li>Fixed <code>claude install --force</code> not bypassing stale lock files</li>
+<li>Fixed consecutive @~/ file references in CLAUDE.md being incorrectly parsed due to markdown strikethrough interference</li>
+<li>Windows: Fixed plugin MCP servers failing due to colons in log directory paths</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.65]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2065</id>
@@ -675,17 +696,6 @@
 <li>Hooks: Reduced PostToolUse &#39;tool_use&#39; ids were found without &#39;tool_result&#39; blocks errors</li>
 <li>SDK: The Claude Code SDK is now the Claude Agent SDK</li>
 <li>Add subagents dynamically with <code>--agents</code> flag</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.0.126]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10126</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#10126"/>
-        <updated>2025-09-26T00:59:58.155Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Enable /context command for Bedrock and Vertex</li>
-<li>Add mTLS support for HTTP-based OpenTelemetry exporters</li>
 </ul>
 ]]></content>
     </entry>
