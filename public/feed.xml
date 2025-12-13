@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-13T00:26:52.649Z</updated>
+    <updated>2025-12-13T01:34:46.269Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.69]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2069</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2069"/>
+        <updated>2025-12-13T00:32:30.208Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Minor bugfixes</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.68]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2068</id>
@@ -680,17 +690,6 @@
 <li>IDE: Add &quot;Open in Terminal&quot; link in login screen</li>
 <li>Fix unhandled OAuth expiration 401 API errors</li>
 <li>SDK: Added SDKUserMessageReplay.isReplay to prevent duplicate messages</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2.0.1]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#201</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#201"/>
-        <updated>2025-09-30T01:53:50.434Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Skip Sonnet 4.5 default model setting change for Bedrock and Vertex</li>
-<li>Various bug fixes and presentation improvements</li>
 </ul>
 ]]></content>
     </entry>
