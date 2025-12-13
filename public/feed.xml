@@ -2,16 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-12T23:06:50.285Z</updated>
+    <updated>2025-12-13T00:26:52.649Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.68]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2068</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2068"/>
+        <updated>2025-12-12T22:56:02.877Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed IME (Input Method Editor) support for languages like Chinese, Japanese, and Korean by correctly positioning the composition window at the cursor</li>
+<li>Fixed a bug where disallowed MCP tools were visible to the model</li>
+<li>Fixed an issue where steering messages could be lost while a subagent is working</li>
+<li>Fixed Option+Arrow word navigation treating entire CJK (Chinese, Japanese, Korean) text sequences as a single word instead of navigating by word boundaries</li>
+<li>Improved plan mode exit UX: show simplified yes/no dialog when exiting with empty or missing plan instead of throwing an error</li>
+<li>Add support for enterprise managed settings. Contact your Anthropic account team to enable this feature.</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.67]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2067</id>
         <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2067"/>
         <updated>2025-12-11T23:56:31.532Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Claude now suggests prompts to speed up your workflow: press Tab to accept or Enter to submit</li>
 <li>Thinking mode is now enabled by default for Opus 4.5</li>
 <li>Thinking mode configuration has moved to /config</li>
 <li>Added search functionality to <code>/permissions</code> command with <code>/</code> keyboard shortcut for filtering rules by tool name</li>
@@ -677,25 +691,6 @@
         <content type="html"><![CDATA[<ul>
 <li>Skip Sonnet 4.5 default model setting change for Bedrock and Vertex</li>
 <li>Various bug fixes and presentation improvements</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2.0.0]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#200</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#200"/>
-        <updated>2025-09-29T14:41:14.895Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>New native VS Code extension</li>
-<li>Fresh coat of paint throughout the whole app</li>
-<li>/rewind a conversation to undo code changes</li>
-<li>/usage command to see plan limits</li>
-<li>Tab to toggle thinking (sticky across sessions)</li>
-<li>Ctrl-R to search history</li>
-<li>Unshipped claude config command</li>
-<li>Hooks: Reduced PostToolUse &#39;tool_use&#39; ids were found without &#39;tool_result&#39; blocks errors</li>
-<li>SDK: The Claude Code SDK is now the Claude Agent SDK</li>
-<li>Add subagents dynamically with <code>--agents</code> flag</li>
 </ul>
 ]]></content>
     </entry>
