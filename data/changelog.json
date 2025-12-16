@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.71",
+    "content": "- Added /config toggle to enable/disable prompt suggestions\n- Added `/settings` as an alias for the `/config` command\n- Fixed @ file reference suggestions incorrectly triggering when cursor is in the middle of a path\n- Fixed MCP servers from `.mcp.json` not loading when using `--dangerously-skip-permissions`\n- Fixed permission rules incorrectly rejecting valid bash commands containing shell glob patterns (e.g., `ls *.txt`, `for f in *.png`)\n- Bedrock: Environment variable `ANTHROPIC_BEDROCK_BASE_URL` is now respected for token counting and inference profile listing\n- New syntax highlighting engine for native build",
+    "publishedAt": "2025-12-16T21:30:39.801Z"
+  },
+  {
     "version": "2.0.70",
     "content": "- Added Enter key to accept and submit prompt suggestions immediately (tab still accepts for editing)\n- Added wildcard syntax `mcp__server__*` for MCP tool permissions to allow or deny all tools from a server\n- Added auto-update toggle for plugin marketplaces, allowing per-marketplace control over automatic updates\n- Added `plan_mode_required` spawn parameter for teammates to require plan approval before implementing changes\n- Added `current_usage` field to status line input, enabling accurate context window percentage calculations\n- Fixed input being cleared when processing queued commands while the user was typing\n- Fixed prompt suggestions replacing typed input when pressing Tab\n- Fixed diff view not updating when terminal is resized\n- Improved memory usage by 3x for large conversations\n- Improved resolution of stats screenshots copied to clipboard (Ctrl+S) for crisper images\n- Removed # shortcut for quick memory entry (tell Claude to edit your CLAUDE.md instead)\n- Fix thinking mode toggle in /config not persisting correctly\n- Improve UI for file creation permission dialog",
     "publishedAt": "2025-12-15T22:38:58.864Z"
