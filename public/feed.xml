@@ -2,9 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-15T23:07:12.216Z</updated>
+    <updated>2025-12-16T00:28:56.898Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.70]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2070</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2070"/>
+        <updated>2025-12-15T22:38:58.864Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added Enter key to accept and submit prompt suggestions immediately (tab still accepts for editing)</li>
+<li>Added wildcard syntax <code>mcp__server__*</code> for MCP tool permissions to allow or deny all tools from a server</li>
+<li>Added auto-update toggle for plugin marketplaces, allowing per-marketplace control over automatic updates</li>
+<li>Added <code>plan_mode_required</code> spawn parameter for teammates to require plan approval before implementing changes</li>
+<li>Added <code>current_usage</code> field to status line input, enabling accurate context window percentage calculations</li>
+<li>Fixed input being cleared when processing queued commands while the user was typing</li>
+<li>Fixed prompt suggestions replacing typed input when pressing Tab</li>
+<li>Fixed diff view not updating when terminal is resized</li>
+<li>Improved memory usage by 3x for large conversations</li>
+<li>Improved resolution of stats screenshots copied to clipboard (Ctrl+S) for crisper images</li>
+<li>Removed # shortcut for quick memory entry (tell Claude to edit your CLAUDE.md instead)</li>
+<li>Fix thinking mode toggle in /config not persisting correctly</li>
+<li>Improve UI for file creation permission dialog</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.69]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2069</id>
@@ -677,19 +699,6 @@
 <li>/context: Fix counting for thinking blocks</li>
 <li>Improve message rendering for users with light themes on dark terminals</li>
 <li>Remove deprecated .claude.json allowedTools, ignorePatterns, env, and todoFeatureEnabled config options (instead, configure these in your settings.json)</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2.0.5]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#205</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#205"/>
-        <updated>2025-10-02T16:20:59.106Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>IDE: Fix IME unintended message submission with Enter and Tab</li>
-<li>IDE: Add &quot;Open in Terminal&quot; link in login screen</li>
-<li>Fix unhandled OAuth expiration 401 API errors</li>
-<li>SDK: Added SDKUserMessageReplay.isReplay to prevent duplicate messages</li>
 </ul>
 ]]></content>
     </entry>

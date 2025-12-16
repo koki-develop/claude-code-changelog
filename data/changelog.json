@@ -1,5 +1,10 @@
 [
   {
+    "version": "2.0.70",
+    "content": "- Added Enter key to accept and submit prompt suggestions immediately (tab still accepts for editing)\n- Added wildcard syntax `mcp__server__*` for MCP tool permissions to allow or deny all tools from a server\n- Added auto-update toggle for plugin marketplaces, allowing per-marketplace control over automatic updates\n- Added `plan_mode_required` spawn parameter for teammates to require plan approval before implementing changes\n- Added `current_usage` field to status line input, enabling accurate context window percentage calculations\n- Fixed input being cleared when processing queued commands while the user was typing\n- Fixed prompt suggestions replacing typed input when pressing Tab\n- Fixed diff view not updating when terminal is resized\n- Improved memory usage by 3x for large conversations\n- Improved resolution of stats screenshots copied to clipboard (Ctrl+S) for crisper images\n- Removed # shortcut for quick memory entry (tell Claude to edit your CLAUDE.md instead)\n- Fix thinking mode toggle in /config not persisting correctly\n- Improve UI for file creation permission dialog",
+    "publishedAt": "2025-12-15T22:38:58.864Z"
+  },
+  {
     "version": "2.0.69",
     "content": "- Minor bugfixes",
     "publishedAt": "2025-12-13T00:32:30.208Z"
