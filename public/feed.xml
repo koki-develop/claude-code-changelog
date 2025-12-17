@@ -2,9 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://claude-code-changelog.vercel.app</id>
     <title>Claude Code Changelog</title>
-    <updated>2025-12-16T22:06:48.924Z</updated>
+    <updated>2025-12-17T22:06:48.766Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <rights>All rights reserved 2025, koki-develop</rights>
+    <entry>
+        <title type="html"><![CDATA[2.0.72]]></title>
+        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2072</id>
+        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2072"/>
+        <updated>2025-12-17T21:21:00.969Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added Claude in Chrome (Beta) feature that works with the Chrome extension (<a href="https://claude.ai/chrome">https://claude.ai/chrome</a>) to let you control your browser directly from Claude Code</li>
+<li>Reduced terminal flickering</li>
+<li>Added scannable QR code to mobile app tip for quick app downloads</li>
+<li>Added loading indicator when resuming conversations for better feedback</li>
+<li>Fixed <code>/context</code> command not respecting custom system prompts in non-interactive mode</li>
+<li>Fixed order of consecutive Ctrl+K lines when pasting with Ctrl+Y</li>
+<li>Improved @ mention file suggestion speed (~3x faster in git repositories)</li>
+<li>Improved file suggestion performance in repos with <code>.ignore</code> or <code>.rgignore</code> files</li>
+<li>Improved settings validation errors to be more prominent</li>
+<li>Changed thinking toggle from Tab to Alt+T to avoid accidental triggers</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2.0.71]]></title>
         <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#2071</id>
@@ -691,16 +710,6 @@
 <li>PreToolUse hooks can now modify tool inputs</li>
 <li>Press Ctrl-G to edit your prompt in your system&#39;s configured text editor</li>
 <li>Fixes for bash permission checks with environment variables in the command</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2.0.9]]></title>
-        <id>https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#209</id>
-        <link href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#209"/>
-        <updated>2025-10-06T21:15:21.832Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Fix regression where bash backgrounding stopped working</li>
 </ul>
 ]]></content>
     </entry>
